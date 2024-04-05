@@ -59,6 +59,13 @@ border-top: none;
 .botoes {
     display: block;
 }
+.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+}
 
 @media screen and (min-width: 768px) {
     .botoes {
