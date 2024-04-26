@@ -2,11 +2,11 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --verde: #fc4f97;
     --branco: #FFFFFF;
-    --botao-ativo: #500285;
-    --botao-inativo: rgba(31, 0, 59, 0.5);
-    --texto-fundo: rgba(49, 1, 94, 0.5);
+    --botao-ativo: #4412a0;
+    --botao-inativo: rgba(30, 4, 78, 0.5);
+    --texto-fundo: rgba(30, 4, 78, 0.5);
 }
 
 body {
@@ -88,26 +88,30 @@ body {
     color: var(--verde);
     text-transform: uppercase;
 }
+
 .contador{
-    display: flex;
+    display:flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  .contador-digito{
+}
+.contador-digito{
     padding: 0 16px;
     text-align: center;
     min-width: 100px;
-  }
-  .contador-digito-número{
+}
+
+.contador-digito-numero{
     font-size: 80px;
     margin: 0;
-  }
-  .contador-digito-texto{
+
+}
+
+.contador-digito-texto{
     color: var(--verde);
     font-size: 20px;
     margin: 0;
-  }
-  
+
+}
 
 @media screen and (min-width: 768px) {
     .botoes {
